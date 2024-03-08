@@ -6,22 +6,17 @@ function suma(a, b) {
     return a - b;
   }
   
-  function multiplicacion(a, b) {
-    return a * b;
-  }
   
   function division(a, b) {
     return a / b;
   }
   
   // Ejemplo de uso
-  let resultadoSuma = suma(5, 3);
-  let resultadoResta = resta(10, 4);
-  let resultadoMultiplicacion = multiplicacion(2, 5);
-  let resultadoDivision = division(12, 3);
+  let resultadoSuma = suma(10, 5);
+  let resultadoResta = resta(1, 5);
+  let resultadoDivision = division(7, 1);
   
   console.log("Suma:", resultadoSuma);
   console.log("Resta:", resultadoResta);
-  console.log("Multiplicación:", resultadoMultiplicacion);
   console.log("División:", resultadoDivision);
   
